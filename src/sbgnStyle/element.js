@@ -25,7 +25,10 @@ const sbgnStyle = new Map()
 .set('tag', {w: 100, h: 65, shape: 'tag'})
 .set('and', {w: 40, h: 40, shape: 'ellipse'})
 .set('or', {w: 40, h: 40, shape: 'ellipse'})
-.set('not', {w: 40, h: 40, shape: 'ellipse'});
+.set('not', {w: 40, h: 40, shape: 'ellipse'})
+.set('delay', {w: 40, h: 40, shape: 'ellipse'})
+
+.set('biological activity', {w: 96, h: 48, shape: 'rectangle'});
 
 const sbgnArrowMap = new Map()
 .set('necessary stimulation', 'triangle-cross')
@@ -33,7 +36,10 @@ const sbgnArrowMap = new Map()
 .set('catalysis', 'circle')
 .set('stimulation', 'triangle')
 .set('production', 'triangle')
-.set('modulation', 'diamond');
+.set('modulation', 'diamond')
+.set('positive influence', 'triangle')
+.set('negative influence', 'tee')
+.set('unknown influence', 'diamond');
 
 const elementStyle = {
   sbgnShape (node) {
@@ -66,6 +72,9 @@ const elementStyle = {
     }
     if (sbgnClass == 'uncertain process') {
       content = '?';
+    }
+    if (sbgnClass == 'delay') {
+      content = '\u03C4'; // tau
     }
 
     return content;

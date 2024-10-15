@@ -1,0 +1,753 @@
+{
+  "nodes": [
+      {
+          "data": {
+              "id": "glyph2",
+              "class": "biological activity",
+              "label": "TGFβ\nreceptor",
+              "parent": "",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 540,
+                  "y": 127.28278498382133,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph13",
+              "class": "biological activity",
+              "label": "TGFβ",
+              "parent": "",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 540,
+                  "y": 53,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3",
+              "class": "biological activity",
+              "label": "TAK\nTAB",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [
+                  {
+                      "id": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3_0",
+                      "class": "unit of information",
+                      "label": {
+                          "text": ""
+                      },
+                      "entity": {
+                          "name": "complex"
+                      }
+                  }
+              ],
+              "bbox": {
+                  "x": 799,
+                  "y": 308,
+                  "w": 70,
+                  "h": 35
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "nwtN_19a32de0-b3ef-405b-8b13-84c7ff7a0068",
+              "class": "biological activity",
+              "label": "I-Smad",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [
+                  {
+                      "id": "nwtN_19a32de0-b3ef-405b-8b13-84c7ff7a0068_0",
+                      "class": "unit of information",
+                      "label": {
+                          "text": ""
+                      },
+                      "entity": {
+                          "name": "nucleic acid feature"
+                      }
+                  }
+              ],
+              "bbox": {
+                  "x": 677.0035915650764,
+                  "y": 398,
+                  "w": 70,
+                  "h": 35
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "nwtN_c2ba92e8-25c0-4528-a50e-d7e46deaf282",
+              "class": "biological activity",
+              "label": "I-Smad",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [
+                  {
+                      "id": "nwtN_c2ba92e8-25c0-4528-a50e-d7e46deaf282_0",
+                      "class": "unit of information",
+                      "label": {
+                          "text": ""
+                      },
+                      "entity": {
+                          "name": "macromolecule"
+                      }
+                  }
+              ],
+              "bbox": {
+                  "x": 675.9999999999999,
+                  "y": 308,
+                  "w": 70,
+                  "h": 35
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4",
+              "class": "biological activity",
+              "label": "RSmad\nCo-Smads",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [
+                  {
+                      "id": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4_0",
+                      "class": "unit of information",
+                      "label": {
+                          "text": ""
+                      },
+                      "entity": {
+                          "name": "macromolecule"
+                      }
+                  }
+              ],
+              "bbox": {
+                  "x": 540,
+                  "y": 308,
+                  "w": 70,
+                  "h": 35
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph22",
+              "class": "or",
+              "label": "",
+              "parent": "glyph1",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 540,
+                  "y": 501,
+                  "w": 20,
+                  "h": 20
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph21",
+              "class": "and",
+              "label": "",
+              "parent": "glyph1",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 540,
+                  "y": 442,
+                  "w": 20,
+                  "h": 20
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph5",
+              "class": "phenotype",
+              "label": "Gene\ntranscription",
+              "parent": "glyph1",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 540,
+                  "y": 577,
+                  "w": 70,
+                  "h": 35
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph17",
+              "class": "biological activity",
+              "label": "co-repressor",
+              "parent": "glyph1",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 451,
+                  "y": 450,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph20",
+              "class": "biological activity",
+              "label": "co-activator",
+              "parent": "glyph1",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 451,
+                  "y": 381,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph1",
+              "class": "compartment",
+              "label": "nucleus",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 498,
+                  "y": 480.25,
+                  "w": 185.25,
+                  "h": 259.75
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph9",
+              "class": "biological activity",
+              "label": "JNK",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 849,
+                  "y": 398,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph10",
+              "class": "biological activity",
+              "label": "p38",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 761,
+                  "y": 398,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph12",
+              "class": "biological activity",
+              "label": "p42/p44 MAPKs",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 288,
+                  "y": 308,
+                  "w": 90,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph6",
+              "class": "biological activity",
+              "label": "RSmad",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 540,
+                  "y": 225,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph19",
+              "class": "biological activity",
+              "label": "SARA",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 407,
+                  "y": 225,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph16",
+              "class": "biological activity",
+              "label": "Smurf",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 679,
+                  "y": 225,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph18",
+              "class": "biological activity",
+              "label": "FKBP12",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 741,
+                  "y": 165,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph8",
+              "class": "biological activity",
+              "label": "BAMBI",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 342,
+                  "y": 165,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph7",
+              "class": "biological activity",
+              "label": "RAS",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 288,
+                  "y": 225,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph11",
+              "class": "biological activity",
+              "label": "TAK",
+              "parent": "glyph0",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 799,
+                  "y": 225,
+                  "w": 60,
+                  "h": 30
+              }
+          }
+      },
+      {
+          "data": {
+              "id": "glyph0",
+              "class": "compartment",
+              "label": "cytosol",
+              "parent": "",
+              "clonemarker": false,
+              "stateVariables": [],
+              "unitsOfInformation": [],
+              "bbox": {
+                  "x": 561,
+                  "y": 380.0625,
+                  "w": 667.25,
+                  "h": 491.375
+              }
+          }
+      }
+  ],
+  "edges": [
+      {
+          "data": {
+              "id": "arc0",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph13",
+              "target": "glyph2",
+              "bendPointPositions": [],
+              "portSource": "glyph13",
+              "portTarget": "glyph2"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_08c3c741-9f52-4e29-9bef-d4b4a12c4831",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph6",
+              "target": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4",
+              "bendPointPositions": [],
+              "portSource": "glyph6",
+              "portTarget": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_4b4b5d9a-d128-4adf-b0fd-1d1371d2dccd",
+              "class": "negative influence",
+              "cardinality": 0,
+              "source": "nwtN_c2ba92e8-25c0-4528-a50e-d7e46deaf282",
+              "target": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4",
+              "bendPointPositions": [],
+              "portSource": "nwtN_c2ba92e8-25c0-4528-a50e-d7e46deaf282",
+              "portTarget": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4"
+          }
+      },
+      {
+          "data": {
+              "id": "arc19",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "glyph10",
+              "target": "glyph22",
+              "bendPointPositions": [
+                  {
+                      "x": null,
+                      "y": null
+                  }
+              ],
+              "portSource": "glyph10",
+              "portTarget": "glyph22.1"
+          }
+      },
+      {
+          "data": {
+              "id": "arc13",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph19",
+              "target": "glyph6",
+              "bendPointPositions": [],
+              "portSource": "glyph19",
+              "portTarget": "glyph6"
+          }
+      },
+      {
+          "data": {
+              "id": "arc18",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "glyph12",
+              "target": "glyph22",
+              "bendPointPositions": [
+                  {
+                      "x": null,
+                      "y": null
+                  }
+              ],
+              "portSource": "glyph12",
+              "portTarget": "glyph22.1"
+          }
+      },
+      {
+          "data": {
+              "id": "arc21",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "glyph21",
+              "target": "glyph22",
+              "bendPointPositions": [],
+              "portSource": "glyph21.2",
+              "portTarget": "glyph22.1"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_71eb9812-7e46-4cdd-9c1d-fd704c804df6",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "nwtN_19a32de0-b3ef-405b-8b13-84c7ff7a0068",
+              "target": "nwtN_c2ba92e8-25c0-4528-a50e-d7e46deaf282",
+              "bendPointPositions": [],
+              "portSource": "nwtN_19a32de0-b3ef-405b-8b13-84c7ff7a0068",
+              "portTarget": "nwtN_c2ba92e8-25c0-4528-a50e-d7e46deaf282"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_99bcc30c-eef3-44cc-9584-b241cd762539",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph11",
+              "target": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3",
+              "bendPointPositions": [],
+              "portSource": "glyph11",
+              "portTarget": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_641d87b8-cbd5-4314-9604-8ae680b46777",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3",
+              "target": "glyph10",
+              "bendPointPositions": [],
+              "portSource": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3",
+              "portTarget": "glyph10"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_ea81e6a7-f602-4b8b-8682-717d4a6d2673",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3",
+              "target": "glyph9",
+              "bendPointPositions": [],
+              "portSource": "nwtN_52fdebc6-f82b-4a13-8640-938571eed1d3",
+              "portTarget": "glyph9"
+          }
+      },
+      {
+          "data": {
+              "id": "arc20",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "glyph9",
+              "target": "glyph22",
+              "bendPointPositions": [
+                  {
+                      "x": null,
+                      "y": null
+                  }
+              ],
+              "portSource": "glyph9",
+              "portTarget": "glyph22.1"
+          }
+      },
+      {
+          "data": {
+              "id": "arc12",
+              "class": "negative influence",
+              "cardinality": 0,
+              "source": "glyph16",
+              "target": "glyph6",
+              "bendPointPositions": [],
+              "portSource": "glyph16",
+              "portTarget": "glyph6"
+          }
+      },
+      {
+          "data": {
+              "id": "arc9",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph7",
+              "target": "glyph12",
+              "bendPointPositions": [],
+              "portSource": "glyph7",
+              "portTarget": "glyph12"
+          }
+      },
+      {
+          "data": {
+              "id": "arc5",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph2",
+              "target": "glyph11",
+              "bendPointPositions": [],
+              "portSource": "glyph2",
+              "portTarget": "glyph11"
+          }
+      },
+      {
+          "data": {
+              "id": "arc15",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "glyph20",
+              "target": "glyph21",
+              "bendPointPositions": [],
+              "portSource": "glyph20",
+              "portTarget": "glyph21.1"
+          }
+      },
+      {
+          "data": {
+              "id": "arc22",
+              "class": "necessary stimulation",
+              "cardinality": 0,
+              "source": "glyph22",
+              "target": "glyph5",
+              "bendPointPositions": [],
+              "portSource": "glyph22.2",
+              "portTarget": "glyph5"
+          }
+      },
+      {
+          "data": {
+              "id": "arc16",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "glyph17",
+              "target": "glyph21",
+              "bendPointPositions": [],
+              "portSource": "glyph17",
+              "portTarget": "glyph21.1"
+          }
+      },
+      {
+          "data": {
+              "id": "arc11",
+              "class": "negative influence",
+              "cardinality": 0,
+              "source": "glyph18",
+              "target": "glyph2",
+              "bendPointPositions": [],
+              "portSource": "glyph18",
+              "portTarget": "glyph2"
+          }
+      },
+      {
+          "data": {
+              "id": "arc10",
+              "class": "negative influence",
+              "cardinality": 0,
+              "source": "glyph8",
+              "target": "glyph2",
+              "bendPointPositions": [],
+              "portSource": "glyph8",
+              "portTarget": "glyph2"
+          }
+      },
+      {
+          "data": {
+              "id": "arc7",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph2",
+              "target": "glyph6",
+              "bendPointPositions": [],
+              "portSource": "glyph2",
+              "portTarget": "glyph6"
+          }
+      },
+      {
+          "data": {
+              "id": "arc6",
+              "class": "positive influence",
+              "cardinality": 0,
+              "source": "glyph2",
+              "target": "glyph7",
+              "bendPointPositions": [],
+              "portSource": "glyph2",
+              "portTarget": "glyph7"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_d9b5f227-9479-4eac-a4d0-375c7e93c78e",
+              "class": "necessary stimulation",
+              "cardinality": 0,
+              "source": "nwtN_19a32de0-b3ef-405b-8b13-84c7ff7a0068",
+              "target": "glyph5",
+              "bendPointPositions": [
+                  {
+                      "x": null,
+                      "y": null
+                  },
+                  {
+                      "x": null,
+                      "y": null
+                  }
+              ],
+              "portSource": "nwtN_19a32de0-b3ef-405b-8b13-84c7ff7a0068",
+              "portTarget": "glyph5"
+          }
+      },
+      {
+          "data": {
+              "id": "nwtE_f1c17a84-ce0f-4e6f-9dac-be6d5bb2cfc8",
+              "class": "logic arc",
+              "cardinality": 0,
+              "source": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4",
+              "target": "glyph21",
+              "bendPointPositions": [],
+              "portSource": "nwtN_161ecab2-f526-4b41-8217-6719914ae8c4",
+              "portTarget": "glyph21.1"
+          }
+      }
+  ]
+}

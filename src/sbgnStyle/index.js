@@ -14,6 +14,7 @@ const sbgnStyleSheet = function (cytoscape) {
           'height': (node) => elementStyle.height(node),
           'text-valign': 'center',
           'text-halign': 'center',
+          'text-wrap': 'wrap',
           'border-width': 1.5,
           'border-color': '#555',
           'background-color': '#f6f6f6',
@@ -183,6 +184,10 @@ const sbgnStyleSheet = function (cytoscape) {
           'source-arrow-shape': 'none'
         })
         .selector('edge[class="inhibition"]')
+        .css({
+          'target-arrow-fill': 'filled'
+        })
+        .selector('edge[class="negative influence"]')
         .css({
           'target-arrow-fill': 'filled'
         })
