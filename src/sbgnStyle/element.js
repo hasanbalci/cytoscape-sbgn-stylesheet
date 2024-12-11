@@ -1,8 +1,8 @@
 const sbgnData = require('./util/sbgn.js');
 
 const sbgnStyle = new Map()
-.set('unspecified entity', {w: 32, h: 32, shape: 'ellipse'})
-.set('simple chemical', {w: 48, h: 48, shape: 'ellipse'})
+.set('unspecified entity', {w: 96, h: 48, shape: 'ellipse'})
+.set('simple chemical', {w: 96, h: 48, shape: 'polygon'})
 .set('simple chemical multimer', {w: 48, h: 48, shape: 'ellipse'})
 .set('macromolecule', {w: 96, h: 48, shape: 'roundrectangle'})
 .set('macromolecule multimer', {w: 96, h: 48, shape: 'roundrectangle'})
@@ -23,10 +23,10 @@ const sbgnStyle = new Map()
 .set('compartment', {w: 50, h: 50, shape: 'barrel'})
 
 .set('tag', {w: 100, h: 65, shape: 'tag'})
-.set('and', {w: 40, h: 40, shape: 'ellipse'})
-.set('or', {w: 40, h: 40, shape: 'ellipse'})
-.set('not', {w: 40, h: 40, shape: 'ellipse'})
-.set('delay', {w: 40, h: 40, shape: 'ellipse'})
+.set('and', {w: 48, h: 48, shape: 'ellipse'})
+.set('or', {w: 48, h: 48, shape: 'ellipse'})
+.set('not', {w: 48, h: 48, shape: 'ellipse'})
+.set('delay', {w: 48, h: 48, shape: 'ellipse'})
 
 .set('biological activity', {w: 96, h: 48, shape: 'rectangle'});
 
