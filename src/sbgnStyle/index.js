@@ -17,7 +17,7 @@ const sbgnStyleSheet = function (cytoscape) {
           'text-wrap': 'wrap',
           'border-width': 1.5,
           'border-color': '#555',
-          'background-color': '#f6f6f6',
+          'background-color': '#ffffff',
           'text-opacity': 1,
           'opacity': 1,
           'text-outline-color': 'white',
